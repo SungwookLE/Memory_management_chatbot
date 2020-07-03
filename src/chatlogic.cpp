@@ -33,6 +33,7 @@ ChatLogic::~ChatLogic()
     ////
 
     // delete chatbot instance
+    // Task 0
     delete _chatBot;
 
     // delete all nodes
