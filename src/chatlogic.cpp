@@ -19,7 +19,7 @@ ChatLogic::ChatLogic()
 
     // create instance of chatbot
     _chatBot = new ChatBot("../images/chatbot.png");
-
+    
     // add pointer to chatlogic so that chatbot answers can be passed on to the GUI
     _chatBot->SetChatLogicHandle(this);
 
@@ -165,6 +165,10 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename)
                             edge->SetChildNode(*childNode);
                             edge->SetParentNode(*parentNode);
                             _edges.push_back(edge);
+
+                            // 이렇게 해서 edge 의 포인터를 unique로 만드는것은 맞는 것 같은데.. 그 밑에 멤버가 없다고 에러가 뜨니... (7/8)
+                            // std::unique_ptr<GraphEdge> edge = std::make_unique<GraphEdge>(id);
+
 
                             // find all keywords for current node
                             AddAllTokensToElement("KEYWORD", tokens, *edge);
