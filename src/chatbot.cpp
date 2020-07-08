@@ -43,7 +43,71 @@ ChatBot::~ChatBot()
 }
 
 //// STUDENT CODE
-////
+// Task2. Rule of Five
+ ChatBot::ChatBot(const ChatBot &source) // COPY CONSTRUCTOR
+ {
+     _currentNode = source._currentNode;
+     _rootNode = source._rootNode;
+     _chatLogic = source._chatLogic;
+     _chatLogic->SetChatbotHandle(this);
+     
+     _image = new wxBitmap(*(source._image));
+     *_image = *(source._image);
+     std::cout << "ChatBot Copy Constructor" << std::endl;
+ }
+
+ ChatBot& ChatBot::operator=(const ChatBot &source)// COPY OPERATOR
+ {
+        if (this == &source)
+                return *this;
+        delete _image;
+        _image = new wxBitmap(*(source._image));
+        *_image = *(source._image);
+
+        _currentNode = source._currentNode;
+        _rootNode = source._rootNode;
+        _chatLogic = source._chatLogic;
+        _chatLogic->SetChatbotHandle(this);
+
+        std::cout << "ChatBot Copy Operator" << std::endl;
+        return *this;
+ }
+
+ ChatBot::ChatBot(ChatBot &&source) // MOVE CONSTRUCTOR
+ {
+     _image = source._image;
+     _currentNode = source._currentNode;
+     _rootNode = source._rootNode;
+     _chatLogic = source._chatLogic;
+
+     source._chatLogic = nullptr;
+     source._rootNode = nullptr;
+     source._currentNode = nullptr;
+     source._image = nullptr;
+
+     std::cout << "ChatBot Move Constructor" << std::endl;
+ }
+
+ ChatBot& ChatBot::operator=(ChatBot &&source) // MOVE OPERATOR
+ {
+        if (this == &source)
+            return *this;
+
+        delete _image;
+
+        _image = source._image;
+        _currentNode = source._currentNode;
+        _rootNode = source._rootNode;
+        _chatLogic = source._chatLogic;
+
+        source._currentNode = nullptr;
+        source._rootNode = nullptr;
+        source._chatLogic = nullptr;
+        source._image = nullptr;
+
+        std::cout << "ChatBot Move Operator" << std::endl;
+        return *this;
+ }
 
 ////
 //// EOF STUDENT CODE

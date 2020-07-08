@@ -6,10 +6,30 @@
 
 #IncludeRegexTransform: 
 
+/home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/chatbot.cpp
+iostream
+-
+random
+-
+algorithm
+-
+ctime
+-
+chatlogic.h
+/home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/chatlogic.h
+graphnode.h
+/home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/graphnode.h
+graphedge.h
+/home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/graphedge.h
+chatbot.h
+/home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/chatbot.h
+
 /home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/chatbot.h
 wx/bitmap.h
 -
 string
+-
+iostream
 -
 
 /home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/chatgui.h
@@ -17,30 +37,6 @@ wx/wx.h
 -
 memory
 -
-
-/home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/chatlogic.cpp
-fstream
--
-sstream
--
-iostream
--
-vector
--
-iterator
--
-tuple
--
-algorithm
--
-graphedge.h
-/home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/graphedge.h
-graphnode.h
-/home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/graphnode.h
-chatbot.h
-/home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/chatbot.h
-chatlogic.h
-/home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/chatlogic.h
 
 /home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/chatlogic.h
 vector

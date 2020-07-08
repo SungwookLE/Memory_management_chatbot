@@ -3,6 +3,7 @@
 
 #include <wx/bitmap.h>
 #include <string>
+#include <iostream>
 
 class GraphNode; // forward declaration
 class ChatLogic; // forward declaration
@@ -28,7 +29,13 @@ public:
     ~ChatBot();
 
     //// STUDENT CODE
-    ////
+    // Task2. Rule of Five (7/6)
+    // 나머지 것들도 null ptr 등을 할당 해야 함 https://github.com/benjamin-gee/CppND-Memory-Management-Chatbot/blob/master/src/chatbot.cpp
+
+    ChatBot(const ChatBot &source); // COPY CONSTRUCTOR
+    ChatBot& operator=(const ChatBot &source); // COPY OPERATOR
+    ChatBot(ChatBot &&source); // MOVE CONSTRUCTOR
+    ChatBot& operator=(ChatBot &&source); // MOVE OPERATOR
 
     ////
     //// EOF STUDENT CODE
