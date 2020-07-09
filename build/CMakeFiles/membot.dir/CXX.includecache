@@ -6,24 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/chatbot.cpp
-iostream
--
-random
--
-algorithm
--
-ctime
--
-chatlogic.h
-/home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/chatlogic.h
-graphnode.h
-/home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/graphnode.h
-graphedge.h
-/home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/graphedge.h
-chatbot.h
-/home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/chatbot.h
-
 /home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/chatbot.h
 wx/bitmap.h
 -
@@ -31,22 +13,6 @@ string
 -
 iostream
 -
-
-/home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/chatgui.cpp
-wx/filename.h
--
-wx/colour.h
--
-wx/image.h
--
-string
--
-chatbot.h
-/home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/chatbot.h
-chatlogic.h
-/home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/chatlogic.h
-chatgui.h
-/home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/chatgui.h
 
 /home/joker1251/Desktop/OWEN/CppND-Memory-Management-Chatbot/src/chatgui.h
 wx/wx.h
