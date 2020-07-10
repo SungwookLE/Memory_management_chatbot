@@ -23,8 +23,7 @@ private:
     // trying
     std::vector<std::unique_ptr<GraphNode>> _nodes;
     std::vector<GraphEdge *> _edges;
-    //std::vector<std::unique_ptr<GraphEdge>> _edges;
-
+    //std::vector<std::unique_ptr<GraphEdge>> _edges; --> (7/10) it is not needed. because there is a unique_ptr edge;
 
     ////
     //// EOF STUDENT CODE

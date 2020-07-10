@@ -63,6 +63,8 @@ GraphEdge *GraphNode::GetChildEdgeAtIndex(int index)
     // return _childEdges[index];
 
     // (7/10) Task3: 
+    // unique_ptr without loss of ownership just return the pointer register
+    // _childEdges is unique_ptr
     return _childEdges[index].get();
 
     ////
