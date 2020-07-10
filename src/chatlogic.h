@@ -17,11 +17,12 @@ private:
     // Task3. (7/8) Trying now...... unique_ptr.. and  ... oh u... very difficult
 
     // data handles (owned)
-    std::vector<GraphNode *> _nodes;
-    std::vector<GraphEdge *> _edges;
+    //std::vector<GraphNode *> _nodes;
+    // std::vector<GraphEdge *> _edges;
 
     // trying
-    //std::vector<std::unique_ptr<GraphNode >> _nodes;
+    std::vector<std::unique_ptr<GraphNode>> _nodes;
+    std::vector<GraphEdge *> _edges;
     //std::vector<std::unique_ptr<GraphEdge>> _edges;
 
 

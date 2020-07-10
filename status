@@ -1,0 +1,89 @@
+[33mcommit ceb1be06b297bb5f669a929e0036793374390c22[m[33m ([m[1;36mHEAD[m[33m)[m
+Author: Owen LEE <joker1251@naver.com>
+Date:   Thu Jul 9 21:54:31 2020 +0900
+
+    ('20.7/9) Task3: some fixed in chatlogic.cpp and bug at line 177, compile okay but executable file has segmentation error
+
+[33mcommit 3b49b9cf0276967427a7eeaaf8f367322b9e09d3[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Owen LEE <joker1251@naver.com>
+Date:   Wed Jul 8 22:17:28 2020 +0900
+
+    ('20.7/8) digging in Task3 ...
+
+[33mcommit e61fbd3573b2ff9e1da5d0ff135718de29b9e968[m
+Author: Owen LEE <joker1251@naver.com>
+Date:   Wed Jul 8 20:10:22 2020 +0900
+
+    ('20.7/8) Task2 Fixed: The Rule of Five
+
+[33mcommit d0f51bfd4603c4b66f3df7e44d3bc9e21855707c[m
+Author: Owen LEE <joker1251@naver.com>
+Date:   Fri Jul 3 22:29:08 2020 +0900
+
+    ('20.7/3) Task0 & Task1 Fixed
+
+[33mcommit 479fbfb8440e55766d824dc75ce1cb98bc62faa4[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Stephen Welch <swelch53@gmail.com>
+Date:   Tue Sep 24 13:42:42 2019 -0700
+
+    Readme updates.
+
+[33mcommit 684ef080b744cc001e1e09f85d9c766e61907ab1[m
+Author: Stephen Welch <swelch53@gmail.com>
+Date:   Tue Sep 24 13:41:33 2019 -0700
+
+    Readme updates.
+
+[33mcommit 620bbc465488a929bae67a58c055a26c7d5c9af2[m
+Author: Stephen Welch <swelch53@gmail.com>
+Date:   Tue Sep 24 13:34:37 2019 -0700
+
+    Updating demo gif
+
+[33mcommit e96ec3fda33800472fe500940f29bf3fb176599d[m
+Author: Stephen Welch <swelch53@gmail.com>
+Date:   Fri Sep 20 13:05:24 2019 -0700
+
+    README updates
+
+[33mcommit 5d42bbb6b6a44e84781108ea5c619f2ca11a0637[m
+Author: Stephen Welch <swelch53@gmail.com>
+Date:   Fri Sep 20 13:02:32 2019 -0700
+
+    Adding a .gif to the README
+
+[33mcommit 15cf9c52bc853d3de196764d131fa6905d6ffee6[m
+Author: Stephen Welch <swelch53@gmail.com>
+Date:   Wed Sep 18 13:15:44 2019 -0700
+
+    README updates
+
+[33mcommit 362b45dadc3e4fcfcad867dbb1587ec425644646[m
+Author: Stephen Welch <swelch53@gmail.com>
+Date:   Wed Sep 18 13:14:24 2019 -0700
+
+    File and README updates.
+
+[33mcommit 77bd15308f5fed815bfde241af5f228a3ad4652f[m
+Author: Stephen Welch <stephen.welch@udacity.com>
+Date:   Tue Sep 10 13:34:46 2019 -0700
+
+    Update README.md
+
+[33mcommit 51e03db0441cea70cc832b83ae500ac2a97c38f9[m
+Author: Stephen Welch <swelch53@gmail.com>
+Date:   Tue Sep 10 13:27:24 2019 -0700
+
+    README updates
+
+[33mcommit d6392effd8bc549af410a1f3be78f8307f1449f0[m
+Author: Stephen Welch <swelch53@gmail.com>
+Date:   Mon Sep 9 12:30:35 2019 -0700
+
+    README updates
+
+[33mcommit 928a53b72eb9e6d949a0dbe842c39ff72d14e58d[m
+Author: Stephen Welch <swelch53@gmail.com>
+Date:   Mon Sep 9 11:48:00 2019 -0700
+
+    First commit
